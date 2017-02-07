@@ -159,7 +159,7 @@ class MyService {
 
 ## Examples
 
-See [examples](https://github.com/marchah/node-webservice/tree/master/example):
+See [examples](https://github.com/marchah/node-webservice/tree/master/example)
 
 ## Contributing
 
