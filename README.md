@@ -156,3 +156,11 @@ class MyService {
   }
 }
 ```
+
+## Examples
+
+See [examples](https://github.com/marchah/node-webservice/tree/master/example)
+
+## Contributing
+
+This project is a work in progress and subject to API changes, please feel free to contribute
