@@ -7,7 +7,7 @@ Webservice helper for api requests
 Install via [npm](https://www.npmjs.com/):
 
 ```
-$ npm install json-mapper-json
+$ npm install node-webservice
 ```
 
 ## Documentation
