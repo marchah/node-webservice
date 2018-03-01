@@ -58,43 +58,6 @@ First argument for webservice `execute` function
 ### Skeleton
 
 ```javascript
-/**
- * Ocean schedule template
- *
- * @type {Object}
- */
-const template = {
-  schedules: {
-    path: 'ns2:RequestServiceSchedulesResponse.Transactions.Transaction.Details.ServiceSchedule',
-    nested: {
-      carrier: {
-        path: 'CarrierID.$t',
-        formatting: getCarrier,
-      },
-      departure_port: {
-        path: 'Origin.Code',
-        formatting: getPort,
-      },
-      arrival_port: {
-        path: 'Destination.Code',
-        formatting: getPort,
-      },
-      departure_at: {
-        path: 'Origin.Departs.$t',
-      },
-      arrival_at: {
-        path: 'Destination.Arrives.$t',
-      },
-      vessel: {
-        path: 'Vessel',
-      },
-      voyage: {
-        path: 'VoyageNumber',
-      },
-    },
-  },
-};
-
 class MyService {
 
   /**
