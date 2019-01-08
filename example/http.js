@@ -17,7 +17,7 @@ class MyService {
     return `https://jsonplaceholder.typicode.com/posts?userId=${this.settings.userId}`;
   }
 
-  getResponse(response) {
+  getResponse(response, headers) {
     return JSON.parse(response);
   }
 };

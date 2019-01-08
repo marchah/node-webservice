@@ -92,10 +92,11 @@ class MyService {
   /**
    * Parse webservice response
    *
-   * @param {String} response XML response from the webservice
+   * @param {String} response XML or JSON response from the webservice
+   * @param {Object} headers headers Object response from the webservice (Only present for HTTP request)
    * @return {???} your parse response
    */
-  getResponse(response) {
+  getResponse(response, headers) {
     // do your stuff
   }
 
