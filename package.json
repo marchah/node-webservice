@@ -1,6 +1,6 @@
 {
   "name": "node-webservice",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "main": "./index.js",
   "description": "Webservice helper for api requests",
   "scripts": {
